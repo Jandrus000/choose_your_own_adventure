@@ -11,3 +11,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ----------------stop watch styling------------------------ */
+.stopWatch{
+  margin: 0px 30px 0px 30px;
+}
+
+/* -------------------------Choose adventure styling------------------------------ */
+.chooseAdventure{
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.question{
+  margin: 0;
+  width: 75%;
+  text-align: center;
+}
+
+.options{
+  display:flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.option{
+  background-color: lightblue;
+  padding: 40px 100px 40px 100px;
+  border: solid;
+  border-radius: 30px;
+  width: 20%;
+  text-align: center;
+}
+
+.choiceImage{
+  width: 25%;
+  border: solid;
+
+}
+
+.good{
+  padding: 10px 40px 10px 40px;
+  margin: 20px 0px 20px 0px;
+  font-size: 2em;
+  background-color: green;
+  border: solid;
+  border-radius: 30px;
+  width: 50%;
+  text-align: center;
+  color: white;
+  border-color: black;
+}
+.bad{
+  padding: 10px 40px 10px 40px;
+  margin: 20px 0px 20px 0px;
+  font-size: 2em;
+  background-color: red;
+  border: solid;
+  border-radius: 30px;
+  width: 50%;
+  text-align: center;
+  color: white;
+  border-color: black;
+}
+.win{
+  padding: 10px 40px 10px 40px;
+  margin: 20px 0px 20px 0px;
+  font-size: 2em;
+  background-color: rgb(252, 230, 105);
+  border: solid;
+  border-radius: 30px;
+  width: 50%;
+  text-align: center;
+  color: black;
+  border-color: black;
+}
+.neutral{
+  padding: 10px 40px 10px 40px;
+  margin: 20px 0px 20px 0px;
+  font-size: 2em;
+  background-color: rgb(145, 145, 145);
+  border: solid;
+  border-radius: 30px;
+  width: 50%;
+  text-align: center;
+  color: white;
+  border-color: black;
+}
