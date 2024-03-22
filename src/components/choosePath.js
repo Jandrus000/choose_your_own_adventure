@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useRef} from "react";
+import React, {useState} from "react";
 import crossroad from './img/crossroad.jpg';
 import cuteLizard from './img/pokey_lizard.jpg'
 import bugs from './img/bugs.jpg'
@@ -20,7 +20,6 @@ import exhausted from './img/exhausted.jpg'
 import laugh from './img/laugh.png'
 import mouth from './img/mouth.jpg'
 import pet from './img/pet.jpg'
-import pokey_lizard from './img/pokey_lizard.jpg'
 import puddle_of_mud from './img/puddle_of_mud.png'
 import surgery from './img/surgeory.jpg'
 import tv from './img/tv.jpg'
@@ -367,19 +366,11 @@ const decisionTree = {
 
 export default function ChoosePath()
 {
-    // let option1 = "Go Right";
-    // let option2 = "Go Left";
-    // let outcome = "Which path do you choose?";
-    // let displayedImage = crossroad
-
     
-    // const [currentLevel, setCurrentLevel] = useState("root");
-    // const [outcome, setOutcome] = useState("");
     const [currentNode, setCurrentNode] = useState(decisionTree.root);
 
     
     function chooseOption(option) {
-        // currentNode = decisionTree[option.nextLevel]
         setCurrentNode(decisionTree[option.nextLevel]);
         console.log(currentNode);
     

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import StopWatch from './components/stopwatch';
 import ChoosePath from './components/choosePath';

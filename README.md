@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created a choose your own adventure web app using React. There are 16 different endings to the game. Each path is portrayed with an AI generated image. There is also a timer in the top right to time how long it takes to reach a "good ending". The command `npm start` entered in the terminal inside the "choose_your_own_adventure" directory will run a local server to run the app. This should take you to the correct starting screen. Node JS and React should be installed to run the local server.
 
-## Available Scripts
+The purpose of this app is to learn the basic utility, syntax, and framework of a React app. And to also create an app that is fun and interactive. 
 
-In the project directory, you can run:
+[Software Demo Video](https://youtu.be/vlAfr2jTZzk)
 
-### `npm start`
+# Web Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This app uses one-web page that is re-rendered dependent on user choice. There is 31 different renderings of the page that are dependent on user choice.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Development Environment
 
-### `npm test`
+I used Visual Studio Code as my IDE, and I used the React java script framework.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Useful Websites
 
-### `npm run build`
+* [Learn React Code Academy](https://www.codecademy.com/learn/react-101)
+* [Bing AI image generator](https://www.bing.com/images/create)
+* [Create React App](https://create-react-app.dev/)
+* [Stack Overflow](https://stackoverflow.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Future Work
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Host app on Firebase
+* Have timer automatically play and only reset when good ending is reached.
+* Improve UI and styling of app
